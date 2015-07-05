@@ -12,6 +12,6 @@
     </style>
   </head>
   <body>
-  	<h1 style="color:#000;text-align: center;">Pacman like with Quintus</h1>
+  	<h1 style="color:#000;text-align: center;">like with Quintus</h1>
   </body>
 </html>
