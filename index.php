@@ -7,7 +7,7 @@
     <script src='http://cdn.html5quintus.com/v0.1.6/quintus-all.js'></script>
     <script src='game.js'></script>
     <style> 
-    	body { padding:0px; margin:0px; background-color:#eee ; }
+    	body { padding:0px; margin:0px; background-color:#aef ; }
     	canvas { background: black;}
     </style>
   </head>
