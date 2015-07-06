@@ -8,7 +8,7 @@
     <script src='game.js'></script>
     <style> 
     	body { padding:0px; margin:0px; background-color:#abc ; }
-    	canvas { background: black;}
+    	canvas { background: #fba;}
     </style>
   </head>
   <body>

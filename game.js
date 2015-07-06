@@ -13,11 +13,21 @@ Q.scene("helloworld",function(stage) {
     y: Q.height/2,
     label: stage.options.label
   }));
+  stage.insert(new Q.UI.Button({
+      asset: 'tiles.png',
+      x: Q.width/2,
+      scale: 0.5,
+      y: 370
+    }, function() {
+      label = "Okay, stop it.";
+    }));
 });
 
 // Stage a scene on stage 0 and pass in a label
-Q.stageScene("helloworld",0, { 
-  label: "This is the label"
-}); 
+Q.load("tiles.png", function() {
+	Q.stageScene("helloworld",0, { 
+	  label: "This is the hello world"
+	}); 
+});
 //--application end
 });
