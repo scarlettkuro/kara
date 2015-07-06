@@ -1,2 +1,2 @@
-var Q = Quintus().include("Sprites, Scenes, Input").setup({ maximize: true });
+//var Q = Quintus().include("Sprites, Scenes, Input").setup({ maximize: true });
 alert('bitch');
