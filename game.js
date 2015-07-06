@@ -1,6 +1,6 @@
 window.addEventListener("load",function() {
 //--application start
-var Q = Quintus().include("Sprites, Scenes, Input").setup({ maximize: true });
+var Q = Quintus().include("Sprites, Scenes, Input, 2D , Touch, UI").setup({ maximize: true });
 
 
 Q.scene('helloworld',function(stage) {
